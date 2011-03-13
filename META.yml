@@ -1,6 +1,6 @@
 --- #YAML:1.0
 name:               Method-Lexical
-version:            0.22
+version:            0.23
 abstract:           private methods and lexical method overrides
 author:
     - chocolateboy <chocolate@cpan.org>
@@ -18,6 +18,8 @@ requires:
     B::Hooks::OP::Annotation:  0.43
     B::Hooks::OP::Check:  0.18
     Devel::Pragma:        0.54
+resources:
+    repository:  http://github.com/chocolateboy/Method-Lexical
 no_index:
     directory:
         - t
